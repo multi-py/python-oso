@@ -40,8 +40,8 @@ Every tag in this repository supports these architectures:
 
 ## Tags
 
-* Recommended Image: `ghcr.io/multi-py/:py3.10-`
-* Slim Image: `ghcr.io/multi-py/:py3.10-slim-`
+* Recommended Image: `ghcr.io/multi-py/:py3.10-0.22.0`
+* Slim Image: `ghcr.io/multi-py/:py3.10-slim-0.22.0`
 
 Tags are based on the package version, python version, and the upstream container the container is based on.
 
@@ -52,6 +52,56 @@ Tags are based on the package version, python version, and the upstream containe
 | latest | 3.8 | py3.8-latest | py3.8-slim-latest | py3.8-alpine-latest |
 | latest | 3.7 | py3.7-latest | py3.7-slim-latest | py3.7-alpine-latest |
 | latest | 3.6 | py3.6-latest | py3.6-slim-latest | py3.6-alpine-latest |
+| 0.22.0 | 3.10 | py3.10-0.22.0 | py3.10-slim-0.22.0 | py3.10-alpine-0.22.0 |
+| 0.22.0 | 3.9 | py3.9-0.22.0 | py3.9-slim-0.22.0 | py3.9-alpine-0.22.0 |
+| 0.22.0 | 3.8 | py3.8-0.22.0 | py3.8-slim-0.22.0 | py3.8-alpine-0.22.0 |
+| 0.22.0 | 3.7 | py3.7-0.22.0 | py3.7-slim-0.22.0 | py3.7-alpine-0.22.0 |
+| 0.22.0 | 3.6 | py3.6-0.22.0 | py3.6-slim-0.22.0 | py3.6-alpine-0.22.0 |
+| 0.21.0 | 3.10 | py3.10-0.21.0 | py3.10-slim-0.21.0 | py3.10-alpine-0.21.0 |
+| 0.21.0 | 3.9 | py3.9-0.21.0 | py3.9-slim-0.21.0 | py3.9-alpine-0.21.0 |
+| 0.21.0 | 3.8 | py3.8-0.21.0 | py3.8-slim-0.21.0 | py3.8-alpine-0.21.0 |
+| 0.21.0 | 3.7 | py3.7-0.21.0 | py3.7-slim-0.21.0 | py3.7-alpine-0.21.0 |
+| 0.21.0 | 3.6 | py3.6-0.21.0 | py3.6-slim-0.21.0 | py3.6-alpine-0.21.0 |
+| 0.20.1 | 3.10 | py3.10-0.20.1 | py3.10-slim-0.20.1 | py3.10-alpine-0.20.1 |
+| 0.20.1 | 3.9 | py3.9-0.20.1 | py3.9-slim-0.20.1 | py3.9-alpine-0.20.1 |
+| 0.20.1 | 3.8 | py3.8-0.20.1 | py3.8-slim-0.20.1 | py3.8-alpine-0.20.1 |
+| 0.20.1 | 3.7 | py3.7-0.20.1 | py3.7-slim-0.20.1 | py3.7-alpine-0.20.1 |
+| 0.20.1 | 3.6 | py3.6-0.20.1 | py3.6-slim-0.20.1 | py3.6-alpine-0.20.1 |
+| 0.20.1b0 | 3.10 | py3.10-0.20.1b0 | py3.10-slim-0.20.1b0 | py3.10-alpine-0.20.1b0 |
+| 0.20.1b0 | 3.9 | py3.9-0.20.1b0 | py3.9-slim-0.20.1b0 | py3.9-alpine-0.20.1b0 |
+| 0.20.1b0 | 3.8 | py3.8-0.20.1b0 | py3.8-slim-0.20.1b0 | py3.8-alpine-0.20.1b0 |
+| 0.20.1b0 | 3.7 | py3.7-0.20.1b0 | py3.7-slim-0.20.1b0 | py3.7-alpine-0.20.1b0 |
+| 0.20.1b0 | 3.6 | py3.6-0.20.1b0 | py3.6-slim-0.20.1b0 | py3.6-alpine-0.20.1b0 |
+| 0.20.0b0 | 3.10 | py3.10-0.20.0b0 | py3.10-slim-0.20.0b0 | py3.10-alpine-0.20.0b0 |
+| 0.20.0b0 | 3.9 | py3.9-0.20.0b0 | py3.9-slim-0.20.0b0 | py3.9-alpine-0.20.0b0 |
+| 0.20.0b0 | 3.8 | py3.8-0.20.0b0 | py3.8-slim-0.20.0b0 | py3.8-alpine-0.20.0b0 |
+| 0.20.0b0 | 3.7 | py3.7-0.20.0b0 | py3.7-slim-0.20.0b0 | py3.7-alpine-0.20.0b0 |
+| 0.20.0b0 | 3.6 | py3.6-0.20.0b0 | py3.6-slim-0.20.0b0 | py3.6-alpine-0.20.0b0 |
+| 0.15.1 | 3.10 | py3.10-0.15.1 | py3.10-slim-0.15.1 | py3.10-alpine-0.15.1 |
+| 0.15.1 | 3.9 | py3.9-0.15.1 | py3.9-slim-0.15.1 | py3.9-alpine-0.15.1 |
+| 0.15.1 | 3.8 | py3.8-0.15.1 | py3.8-slim-0.15.1 | py3.8-alpine-0.15.1 |
+| 0.15.1 | 3.7 | py3.7-0.15.1 | py3.7-slim-0.15.1 | py3.7-alpine-0.15.1 |
+| 0.15.1 | 3.6 | py3.6-0.15.1 | py3.6-slim-0.15.1 | py3.6-alpine-0.15.1 |
+| 0.15.0 | 3.10 | py3.10-0.15.0 | py3.10-slim-0.15.0 | py3.10-alpine-0.15.0 |
+| 0.15.0 | 3.9 | py3.9-0.15.0 | py3.9-slim-0.15.0 | py3.9-alpine-0.15.0 |
+| 0.15.0 | 3.8 | py3.8-0.15.0 | py3.8-slim-0.15.0 | py3.8-alpine-0.15.0 |
+| 0.15.0 | 3.7 | py3.7-0.15.0 | py3.7-slim-0.15.0 | py3.7-alpine-0.15.0 |
+| 0.15.0 | 3.6 | py3.6-0.15.0 | py3.6-slim-0.15.0 | py3.6-alpine-0.15.0 |
+| 0.14.2 | 3.10 | py3.10-0.14.2 | py3.10-slim-0.14.2 | py3.10-alpine-0.14.2 |
+| 0.14.2 | 3.9 | py3.9-0.14.2 | py3.9-slim-0.14.2 | py3.9-alpine-0.14.2 |
+| 0.14.2 | 3.8 | py3.8-0.14.2 | py3.8-slim-0.14.2 | py3.8-alpine-0.14.2 |
+| 0.14.2 | 3.7 | py3.7-0.14.2 | py3.7-slim-0.14.2 | py3.7-alpine-0.14.2 |
+| 0.14.2 | 3.6 | py3.6-0.14.2 | py3.6-slim-0.14.2 | py3.6-alpine-0.14.2 |
+| 0.14.1 | 3.10 | py3.10-0.14.1 | py3.10-slim-0.14.1 | py3.10-alpine-0.14.1 |
+| 0.14.1 | 3.9 | py3.9-0.14.1 | py3.9-slim-0.14.1 | py3.9-alpine-0.14.1 |
+| 0.14.1 | 3.8 | py3.8-0.14.1 | py3.8-slim-0.14.1 | py3.8-alpine-0.14.1 |
+| 0.14.1 | 3.7 | py3.7-0.14.1 | py3.7-slim-0.14.1 | py3.7-alpine-0.14.1 |
+| 0.14.1 | 3.6 | py3.6-0.14.1 | py3.6-slim-0.14.1 | py3.6-alpine-0.14.1 |
+| 0.14.0 | 3.10 | py3.10-0.14.0 | py3.10-slim-0.14.0 | py3.10-alpine-0.14.0 |
+| 0.14.0 | 3.9 | py3.9-0.14.0 | py3.9-slim-0.14.0 | py3.9-alpine-0.14.0 |
+| 0.14.0 | 3.8 | py3.8-0.14.0 | py3.8-slim-0.14.0 | py3.8-alpine-0.14.0 |
+| 0.14.0 | 3.7 | py3.7-0.14.0 | py3.7-slim-0.14.0 | py3.7-alpine-0.14.0 |
+| 0.14.0 | 3.6 | py3.6-0.14.0 | py3.6-slim-0.14.0 | py3.6-alpine-0.14.0 |
 
 
 ### Older Tags
