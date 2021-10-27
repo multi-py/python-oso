@@ -18,7 +18,7 @@ RUN curl https://sh.rustup.rs -sSf | bash -s -- -y
 ENV PATH="/root/.cargo/bin:${PATH}"
 
 WORKDIR /opt
-RUN git clone --depth 1 --branch "$package_version" https://github.com/osohq/oso.git
+RUN git clone --depth 1 --branch "v$package_version" https://github.com/osohq/oso.git
 WORKDIR /opt/oso
 RUN rm -Rf .git
 RUN make python-build
