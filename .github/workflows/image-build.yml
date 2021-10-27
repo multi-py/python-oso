@@ -1,0 +1,39 @@
+
+name: OSO Image Builder
+
+on:
+  push:
+    branches:
+      - 'main'
+    paths-ignore:
+      - '**/README.md'
+      - 'templates/**'
+      - ".github/workflows/versionator.yml"
+  schedule:
+    - cron:  '4 0 * * TUE'
+
+jobs:
+  Uvicorn-Builder:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python_versions: ["3.8", "3.9", "3.10"]
+        package_versions: ["0.21.0", "0.22.0"]
+        target_base: ["full", "slim", "alpine"]
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: "Create and push"
+        uses: multi-py/action-python-image-builder@main
+        with:
+          package: "oso"
+          package_latest_version: "0.22.0"
+          maintainer: "Robert Hafner <tedivm@tedivm.com>"
+          python_version: ${{ matrix.python_versions }}
+          target_base: ${{ matrix.target_base }}
+          package_version: ${{ matrix.package_versions }}
+          registry_password: ${{ secrets.GITHUB_TOKEN }}
+          dockerfile: "${{ github.workspace }}/dockerfile"
+          docker_build_path: "${{ github.workspace }}/"
