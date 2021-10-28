@@ -25,3 +25,4 @@ jobs:
           git_name: "Robert Hafner"
           git_email: "tedivm@tedivm.com"
           action_path: ${{ github.workspace }}/.github/workflows/image-build.yml
+          exclude_versions: "0.20.0"
