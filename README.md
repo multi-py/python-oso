@@ -27,9 +27,9 @@ Within 30 minutes of a new release to oso on PyPI builds will kick off for new c
 
 Containers are rebuilt weekly in order to take on the security patches from upstream containers.
 
-## Quick Start
-### Full
+## How To
 
+### Full
 To pull the latest slim version:
 
 ```bash
@@ -57,7 +57,6 @@ FROM ghcr.io/multi-py/python-oso:py3.10-slim-LATEST
 ```
 
 ### Copy Just the Packages
-
 It's also possible to copy just the Python packages themselves. This is particularly useful when you want to use the precompiled libraries from multiple containers.
 
 ```dockerfile
@@ -66,6 +65,8 @@ FROM python:3.10
 COPY --from=ghcr.io/multi-py/python-oso:py3.10-slim-LATEST /usr/local/lib/python3.10/site-packages/* /usr/local/lib/python3.10/site-packages/
 COPY --from=ghcr.io/multi-py/python-oso:py3.10-slim-LATEST /opt/oso /opt/oso
 ```
+
+
 
 ## Python Versions
 
