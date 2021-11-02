@@ -13,7 +13,7 @@ on:
     - cron:  '4 0 * * TUE'
 
 jobs:
-  Uvicorn-Builder:
+  Container-Builder:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
