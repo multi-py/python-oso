@@ -118,8 +118,8 @@ If you get use out of these containers please consider sponsoring me using Githu
 </center>
 
 ## Tags
-* Recommended Image: `ghcr.io/multi-py/python-oso:py3.10-0.23.0`
-* Slim Image: `ghcr.io/multi-py/python-oso:py3.10-slim-0.23.0`
+* Recommended Image: `ghcr.io/multi-py/python-oso:py3.10-0.24.0`
+* Slim Image: `ghcr.io/multi-py/python-oso:py3.10-slim-0.24.0`
 
 Tags are based on the package version, python version, and the upstream container the container is based on.
 
@@ -130,6 +130,11 @@ Tags are based on the package version, python version, and the upstream containe
 | latest | 3.8 | py3.8-latest | py3.8-slim-latest |
 | latest | 3.7 | py3.7-latest | py3.7-slim-latest |
 | latest | 3.6 | py3.6-latest | py3.6-slim-latest |
+| 0.24.0 | 3.10 | py3.10-0.24.0 | py3.10-slim-0.24.0 |
+| 0.24.0 | 3.9 | py3.9-0.24.0 | py3.9-slim-0.24.0 |
+| 0.24.0 | 3.8 | py3.8-0.24.0 | py3.8-slim-0.24.0 |
+| 0.24.0 | 3.7 | py3.7-0.24.0 | py3.7-slim-0.24.0 |
+| 0.24.0 | 3.6 | py3.6-0.24.0 | py3.6-slim-0.24.0 |
 | 0.23.0 | 3.10 | py3.10-0.23.0 | py3.10-slim-0.23.0 |
 | 0.23.0 | 3.9 | py3.9-0.23.0 | py3.9-slim-0.23.0 |
 | 0.23.0 | 3.8 | py3.8-0.23.0 | py3.8-slim-0.23.0 |
@@ -150,11 +155,6 @@ Tags are based on the package version, python version, and the upstream containe
 | 0.21.0 | 3.8 | py3.8-0.21.0 | py3.8-slim-0.21.0 |
 | 0.21.0 | 3.7 | py3.7-0.21.0 | py3.7-slim-0.21.0 |
 | 0.21.0 | 3.6 | py3.6-0.21.0 | py3.6-slim-0.21.0 |
-| 0.20.1 | 3.10 | py3.10-0.20.1 | py3.10-slim-0.20.1 |
-| 0.20.1 | 3.9 | py3.9-0.20.1 | py3.9-slim-0.20.1 |
-| 0.20.1 | 3.8 | py3.8-0.20.1 | py3.8-slim-0.20.1 |
-| 0.20.1 | 3.7 | py3.7-0.20.1 | py3.7-slim-0.20.1 |
-| 0.20.1 | 3.6 | py3.6-0.20.1 | py3.6-slim-0.20.1 |
 
 
 ### Older Tags
