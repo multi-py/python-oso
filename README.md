@@ -32,7 +32,7 @@ Containers are rebuilt weekly in order to take on the security patches from upst
 ## How To
 
 ### Full
-To pull the latest slim version:
+To pull the latest full version:
 
 ```bash
 docker pull ghcr.io/multi-py/python-oso:py3.10-LATEST
