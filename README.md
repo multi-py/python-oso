@@ -2,6 +2,27 @@
 
 
 
+<!--ts-->
+* [python-oso](#python-oso)
+   * [Benefits](#benefits)
+      * [Multi Architecture Builds](#multi-architecture-builds)
+      * [Small Images via Multi Stage Builds](#small-images-via-multi-stage-builds)
+      * [No Rate Limits](#no-rate-limits)
+      * [Rapid Building of New Versions](#rapid-building-of-new-versions)
+      * [Regular Updates](#regular-updates)
+   * [How To](#how-to)
+      * [Full](#full)
+      * [Slim](#slim)
+      * [Copy Just the Packages](#copy-just-the-packages)
+   * [Python Versions](#python-versions)
+   * [Image Variants](#image-variants)
+      * [Full](#full-1)
+      * [Slim](#slim-1)
+   * [Architectures](#architectures)
+   * [Sponsorship](#sponsorship)
+   * [Tags](#tags)
+      * [Older Tags](#older-tags)
+<!--te-->
 
 ## Benefits
 
@@ -67,6 +88,8 @@ FROM python:3.10
 COPY --from=ghcr.io/multi-py/python-oso:py3.10-slim-LATEST /usr/local/lib/python3.10/site-packages/* /usr/local/lib/python3.10/site-packages/
 COPY --from=ghcr.io/multi-py/python-oso:py3.10-slim-LATEST /opt/oso /opt/oso
 ```
+
+
 
 
 
@@ -160,5 +183,4 @@ Tags are based on the package version, python version, and the upstream containe
 ### Older Tags
 
 Older tags are left for historic purposes but do not receive updates. A full list of tags can be found on the package's [registry page](https://github.com/multi-py/python-oso/pkgs/container/python-oso).
-
 
