@@ -11,13 +11,13 @@
       * [Rapid Building of New Versions](#rapid-building-of-new-versions)
       * [Regular Updates](#regular-updates)
    * [How To](#how-to)
-      * [Full](#full)
-      * [Slim](#slim)
+      * [Using the Full Image](#using-the-full-image)
+      * [Using the Slim Image](#using-the-slim-image)
       * [Copy Just the Packages](#copy-just-the-packages)
    * [Python Versions](#python-versions)
    * [Image Variants](#image-variants)
-      * [Full](#full-1)
-      * [Slim](#slim-1)
+      * [Full](#full)
+      * [Slim](#slim)
    * [Architectures](#architectures)
    * [Sponsorship](#sponsorship)
    * [Tags](#tags)
@@ -52,7 +52,9 @@ Containers are rebuilt weekly in order to take on the security patches from upst
 
 ## How To
 
-### Full
+### Using the Full Image
+The Full Images use the base Python Docker images as their parent. These images are based off of Ubuntu and contain a variety of build tools.
+
 To pull the latest full version:
 
 ```bash
@@ -65,7 +67,9 @@ To include it in the dockerfile instead:
 FROM ghcr.io/multi-py/python-oso:py3.10-LATEST
 ```
 
-### Slim
+### Using the Slim Image
+
+The Slim Images use the base Python Slim Docker images as their parent. These images are very similar to the Full images, but without the build tools. These images are much smaller than their counter parts but are more difficult to compile wheels on.
 
 To pull the latest slim version:
 
@@ -78,6 +82,10 @@ To include it in the dockerfile instead:
 ```dockerfile
 FROM ghcr.io/multi-py/python-oso:py3.10-slim-LATEST
 ```
+
+
+
+
 
 ### Copy Just the Packages
 It's also possible to copy just the Python packages themselves. This is particularly useful when you want to use the precompiled libraries from multiple containers.
