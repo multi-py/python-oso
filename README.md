@@ -58,13 +58,13 @@ The Full Images use the base Python Docker images as their parent. These images 
 To pull the latest full version:
 
 ```bash
-docker pull ghcr.io/multi-py/python-oso:py3.10-LATEST
+docker pull ghcr.io/multi-py/python-oso:py3.11-LATEST
 ```
 
 To include it in the dockerfile instead:
 
 ```dockerfile
-FROM ghcr.io/multi-py/python-oso:py3.10-LATEST
+FROM ghcr.io/multi-py/python-oso:py3.11-LATEST
 ```
 
 ### Using the Slim Image
@@ -74,13 +74,13 @@ The Slim Images use the base Python Slim Docker images as their parent. These im
 To pull the latest slim version:
 
 ```bash
-docker pull ghcr.io/multi-py/python-oso:py3.10-slim-LATEST
+docker pull ghcr.io/multi-py/python-oso:py3.11-slim-LATEST
 ```
 
 To include it in the dockerfile instead:
 
 ```dockerfile
-FROM ghcr.io/multi-py/python-oso:py3.10-slim-LATEST
+FROM ghcr.io/multi-py/python-oso:py3.11-slim-LATEST
 ```
 
 
@@ -91,10 +91,10 @@ FROM ghcr.io/multi-py/python-oso:py3.10-slim-LATEST
 It's also possible to copy just the Python packages themselves. This is particularly useful when you want to use the precompiled libraries from multiple containers.
 
 ```dockerfile
-FROM python:3.10
+FROM python:3.11
 
-COPY --from=ghcr.io/multi-py/python-oso:py3.10-slim-LATEST /usr/local/lib/python3.10/site-packages/* /usr/local/lib/python3.10/site-packages/
-COPY --from=ghcr.io/multi-py/python-oso:py3.10-slim-LATEST /opt/oso /opt/oso
+COPY --from=ghcr.io/multi-py/python-oso:py3.11-slim-LATEST /usr/local/lib/python3.11/site-packages/* /usr/local/lib/python3.11/site-packages/
+COPY --from=ghcr.io/multi-py/python-oso:py3.11-slim-LATEST /opt/oso /opt/oso
 ```
 
 
@@ -105,11 +105,11 @@ COPY --from=ghcr.io/multi-py/python-oso:py3.10-slim-LATEST /opt/oso /opt/oso
 
 This project actively supports these Python versions:
 
+* 3.11
 * 3.10
 * 3.9
 * 3.8
 * 3.7
-* 3.6
 
 
 ## Image Variants
@@ -149,43 +149,43 @@ If you get use out of these containers please consider sponsoring me using Githu
 </center>
 
 ## Tags
-* Recommended Image: `ghcr.io/multi-py/python-oso:py3.10-0.26.2`
-* Slim Image: `ghcr.io/multi-py/python-oso:py3.10-slim-0.26.2`
+* Recommended Image: `ghcr.io/multi-py/python-oso:py3.11-0.26.4`
+* Slim Image: `ghcr.io/multi-py/python-oso:py3.11-slim-0.26.4`
 
 Tags are based on the package version, python version, and the upstream container the container is based on.
 
 | oso Version | Python Version | Full Container | Slim Container |
 |-----------------------|----------------|----------------|----------------|
+| latest | 3.11 | py3.11-latest | py3.11-slim-latest |
 | latest | 3.10 | py3.10-latest | py3.10-slim-latest |
 | latest | 3.9 | py3.9-latest | py3.9-slim-latest |
 | latest | 3.8 | py3.8-latest | py3.8-slim-latest |
 | latest | 3.7 | py3.7-latest | py3.7-slim-latest |
-| latest | 3.6 | py3.6-latest | py3.6-slim-latest |
+| 0.26.4 | 3.11 | py3.11-0.26.4 | py3.11-slim-0.26.4 |
+| 0.26.4 | 3.10 | py3.10-0.26.4 | py3.10-slim-0.26.4 |
+| 0.26.4 | 3.9 | py3.9-0.26.4 | py3.9-slim-0.26.4 |
+| 0.26.4 | 3.8 | py3.8-0.26.4 | py3.8-slim-0.26.4 |
+| 0.26.4 | 3.7 | py3.7-0.26.4 | py3.7-slim-0.26.4 |
+| 0.26.3 | 3.11 | py3.11-0.26.3 | py3.11-slim-0.26.3 |
+| 0.26.3 | 3.10 | py3.10-0.26.3 | py3.10-slim-0.26.3 |
+| 0.26.3 | 3.9 | py3.9-0.26.3 | py3.9-slim-0.26.3 |
+| 0.26.3 | 3.8 | py3.8-0.26.3 | py3.8-slim-0.26.3 |
+| 0.26.3 | 3.7 | py3.7-0.26.3 | py3.7-slim-0.26.3 |
+| 0.26.2 | 3.11 | py3.11-0.26.2 | py3.11-slim-0.26.2 |
 | 0.26.2 | 3.10 | py3.10-0.26.2 | py3.10-slim-0.26.2 |
 | 0.26.2 | 3.9 | py3.9-0.26.2 | py3.9-slim-0.26.2 |
 | 0.26.2 | 3.8 | py3.8-0.26.2 | py3.8-slim-0.26.2 |
 | 0.26.2 | 3.7 | py3.7-0.26.2 | py3.7-slim-0.26.2 |
-| 0.26.2 | 3.6 | py3.6-0.26.2 | py3.6-slim-0.26.2 |
+| 0.26.1 | 3.11 | py3.11-0.26.1 | py3.11-slim-0.26.1 |
 | 0.26.1 | 3.10 | py3.10-0.26.1 | py3.10-slim-0.26.1 |
 | 0.26.1 | 3.9 | py3.9-0.26.1 | py3.9-slim-0.26.1 |
 | 0.26.1 | 3.8 | py3.8-0.26.1 | py3.8-slim-0.26.1 |
 | 0.26.1 | 3.7 | py3.7-0.26.1 | py3.7-slim-0.26.1 |
-| 0.26.1 | 3.6 | py3.6-0.26.1 | py3.6-slim-0.26.1 |
+| 0.26.0 | 3.11 | py3.11-0.26.0 | py3.11-slim-0.26.0 |
 | 0.26.0 | 3.10 | py3.10-0.26.0 | py3.10-slim-0.26.0 |
 | 0.26.0 | 3.9 | py3.9-0.26.0 | py3.9-slim-0.26.0 |
 | 0.26.0 | 3.8 | py3.8-0.26.0 | py3.8-slim-0.26.0 |
 | 0.26.0 | 3.7 | py3.7-0.26.0 | py3.7-slim-0.26.0 |
-| 0.26.0 | 3.6 | py3.6-0.26.0 | py3.6-slim-0.26.0 |
-| 0.25.1 | 3.10 | py3.10-0.25.1 | py3.10-slim-0.25.1 |
-| 0.25.1 | 3.9 | py3.9-0.25.1 | py3.9-slim-0.25.1 |
-| 0.25.1 | 3.8 | py3.8-0.25.1 | py3.8-slim-0.25.1 |
-| 0.25.1 | 3.7 | py3.7-0.25.1 | py3.7-slim-0.25.1 |
-| 0.25.1 | 3.6 | py3.6-0.25.1 | py3.6-slim-0.25.1 |
-| 0.25.0 | 3.10 | py3.10-0.25.0 | py3.10-slim-0.25.0 |
-| 0.25.0 | 3.9 | py3.9-0.25.0 | py3.9-slim-0.25.0 |
-| 0.25.0 | 3.8 | py3.8-0.25.0 | py3.8-slim-0.25.0 |
-| 0.25.0 | 3.7 | py3.7-0.25.0 | py3.7-slim-0.25.0 |
-| 0.25.0 | 3.6 | py3.6-0.25.0 | py3.6-slim-0.25.0 |
 
 
 ### Older Tags
