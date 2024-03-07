@@ -3,25 +3,7 @@
 
 
 <!--ts-->
-* [python-oso](#python-oso)
-   * [Benefits](#benefits)
-      * [Multi Architecture Builds](#multi-architecture-builds)
-      * [Small Images via Multi Stage Builds](#small-images-via-multi-stage-builds)
-      * [No Rate Limits](#no-rate-limits)
-      * [Rapid Building of New Versions](#rapid-building-of-new-versions)
-      * [Regular Updates](#regular-updates)
-   * [How To](#how-to)
-      * [Using the Full Image](#using-the-full-image)
-      * [Using the Slim Image](#using-the-slim-image)
-      * [Copy Just the Packages](#copy-just-the-packages)
-   * [Python Versions](#python-versions)
-   * [Image Variants](#image-variants)
-      * [Full](#full)
-      * [Slim](#slim)
-   * [Architectures](#architectures)
-   * [Sponsorship](#sponsorship)
-   * [Tags](#tags)
-      * [Older Tags](#older-tags)
+
 <!--te-->
 
 ## Benefits
