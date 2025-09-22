@@ -149,8 +149,8 @@ If you get use out of these containers please consider sponsoring me using Githu
 </center>
 
 ## Tags
-* Recommended Image: `ghcr.io/multi-py/python-oso:py3.12-`
-* Slim Image: `ghcr.io/multi-py/python-oso:py3.12-slim-`
+* Recommended Image: `ghcr.io/multi-py/python-oso:py3.12-0.27.3`
+* Slim Image: `ghcr.io/multi-py/python-oso:py3.12-slim-0.27.3`
 
 Tags are based on the package version, python version, and the upstream container the container is based on.
 
@@ -161,6 +161,31 @@ Tags are based on the package version, python version, and the upstream containe
 | latest | 3.10 | py3.10-latest | py3.10-slim-latest |
 | latest | 3.9 | py3.9-latest | py3.9-slim-latest |
 | latest | 3.8 | py3.8-latest | py3.8-slim-latest |
+| 0.27.3 | 3.12 | py3.12-0.27.3 | py3.12-slim-0.27.3 |
+| 0.27.3 | 3.11 | py3.11-0.27.3 | py3.11-slim-0.27.3 |
+| 0.27.3 | 3.10 | py3.10-0.27.3 | py3.10-slim-0.27.3 |
+| 0.27.3 | 3.9 | py3.9-0.27.3 | py3.9-slim-0.27.3 |
+| 0.27.3 | 3.8 | py3.8-0.27.3 | py3.8-slim-0.27.3 |
+| 0.27.2 | 3.12 | py3.12-0.27.2 | py3.12-slim-0.27.2 |
+| 0.27.2 | 3.11 | py3.11-0.27.2 | py3.11-slim-0.27.2 |
+| 0.27.2 | 3.10 | py3.10-0.27.2 | py3.10-slim-0.27.2 |
+| 0.27.2 | 3.9 | py3.9-0.27.2 | py3.9-slim-0.27.2 |
+| 0.27.2 | 3.8 | py3.8-0.27.2 | py3.8-slim-0.27.2 |
+| 0.27.1 | 3.12 | py3.12-0.27.1 | py3.12-slim-0.27.1 |
+| 0.27.1 | 3.11 | py3.11-0.27.1 | py3.11-slim-0.27.1 |
+| 0.27.1 | 3.10 | py3.10-0.27.1 | py3.10-slim-0.27.1 |
+| 0.27.1 | 3.9 | py3.9-0.27.1 | py3.9-slim-0.27.1 |
+| 0.27.1 | 3.8 | py3.8-0.27.1 | py3.8-slim-0.27.1 |
+| 0.27.0 | 3.12 | py3.12-0.27.0 | py3.12-slim-0.27.0 |
+| 0.27.0 | 3.11 | py3.11-0.27.0 | py3.11-slim-0.27.0 |
+| 0.27.0 | 3.10 | py3.10-0.27.0 | py3.10-slim-0.27.0 |
+| 0.27.0 | 3.9 | py3.9-0.27.0 | py3.9-slim-0.27.0 |
+| 0.27.0 | 3.8 | py3.8-0.27.0 | py3.8-slim-0.27.0 |
+| 0.26.4 | 3.12 | py3.12-0.26.4 | py3.12-slim-0.26.4 |
+| 0.26.4 | 3.11 | py3.11-0.26.4 | py3.11-slim-0.26.4 |
+| 0.26.4 | 3.10 | py3.10-0.26.4 | py3.10-slim-0.26.4 |
+| 0.26.4 | 3.9 | py3.9-0.26.4 | py3.9-slim-0.26.4 |
+| 0.26.4 | 3.8 | py3.8-0.26.4 | py3.8-slim-0.26.4 |
 
 
 ### Older Tags

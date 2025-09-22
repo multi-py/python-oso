@@ -30,7 +30,7 @@ jobs:
         timeout-minutes: 45
         with:
           package: "oso"
-          package_latest_version: ""
+          package_latest_version: "0.27.3"
 
           # Disable arm7 due to https://github.com/docker/buildx/issues/395
           platform: "linux/amd64,linux/arm64"
